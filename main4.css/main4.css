@@ -3,14 +3,14 @@ body {
     font-size: 100%;
     margin-left: 10px;
 }
-a:focus, a:hoover{
+a:focus, a:hover {
     font-style: italic;
     color: yellow
 }
 header h1 {
     font-size: 175%;
     color: pink;
-text-tindent: 30px;
+text-indent: 30px;
 }
 header h2{
     font-size: 130%;
