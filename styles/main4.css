@@ -12,7 +12,6 @@ body {
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
-
 }
 a:focus, a:hover {
     font-style: italic;
@@ -44,6 +43,13 @@ main h3 {
     box-shadow: 3px 3px 4px red; 
     padding: 1em;
     font-size: 105%;
+}
+main nav {
+    margin: 1.5em 2em 1.5em;
+    border: 5px dashed blue; 
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px pink;
+    padding: 1em;
 }
 #list {
     line-height: 1.5em;
