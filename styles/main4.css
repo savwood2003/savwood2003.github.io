@@ -28,7 +28,7 @@ header h2{
     text-indent: 30px;
 }
 header img {
-    float: left;
+    float: right;
 }
 .shadow{
     text-shadow: 2px 2px 2px rgb(0, 107, 128)
