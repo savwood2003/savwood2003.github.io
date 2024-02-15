@@ -39,7 +39,7 @@ main {
 main h3 {
     margin-top: 3em 2em 1.5em;
     border: 5px double blue;
-    border-radius 20px;
+    border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red; 
     padding: 1em;
     font-size: 105%;
