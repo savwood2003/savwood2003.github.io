@@ -58,7 +58,8 @@ article p::first-letter{
     color: lightgreen;
 }
 aside{
-    width: 40%;
+    width: 20%;
+    height: 30%;
     float: right;
     background-color: #ffebc6;
 }
