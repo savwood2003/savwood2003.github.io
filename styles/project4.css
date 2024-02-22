@@ -18,11 +18,13 @@ a:focus, a:hover {
     border: 3px blue;
     border-style: dotted solid;
 }
+header{
+    border-top: 2px solid maroon;
+}
 header h1 {
     font-size: 175%;
     color: pink;
     text-indent: 30px;
-    border-top: 2px solid maroon;
 }
 header h2{
     font-size: 130%;
