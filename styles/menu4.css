@@ -1,3 +1,4 @@
+#nav_menu ul { list-style-type: none; }
 #nav_menu ul li { float: left; }
 #nav_menu ul li a { 
     text-align: center;
@@ -13,12 +14,12 @@
 #nav_menu ul li a.lastitem { border-right: none; }
 #nav_menu ul li a.current { color: yellow; }
 
-aside ul{
-list-style-type: square;
+article{
+    clear: left;
 }
 aside ol{
     list-style-type: upper-roman;
 }
-article{
-    clear: left;
+aside ul {
+    list-style-type: square;
 }
