@@ -1,3 +1,4 @@
+/* Necessary style rules for the menu bar */
 nav {
     background-color: #333;
     color: #fff;
@@ -24,15 +25,18 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* Other styles for the body */
 body {
     width: 95%;
     margin: 15px auto;
 }
 
+/* Other styles for the article */
 article {
     width: 75%;
 }
 
+/* Other styles for the aside */
 aside {
     width: 20%;
     position: fixed;
@@ -55,28 +59,33 @@ aside ul li {
     list-style-type: square;
 }
 
+/* Other lines as shown in the screenshot */
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+/* Line below the menu */
 nav:after {
     content: '';
     display: block;
     clear: both;
 }
 
+/* Line between the columns */
 article,
 aside {
     border-right: 1px solid #ccc;
 }
 
+/* Line above the footer */
 footer {
     border-top: 1px solid #ccc;
     padding-top: 10px;
     margin-top: 20px;
 }
 
+/* Line around the body */
 body {
     border: 1px solid #ccc;
     padding: 10px;
