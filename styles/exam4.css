@@ -90,3 +90,10 @@ body {
     border: 1px solid #ccc;
     padding: 10px;
 }
+
+/* Style for the first letter */
+.first-letter {
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+}
