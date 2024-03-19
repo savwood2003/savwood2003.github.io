@@ -64,7 +64,7 @@ margin-bottom: 0.9em; }
 #nav_menu ul il a.current { color: yellow; }
 footer{
     clear: both;
-    border-top: 2px solid blue;
+    border-top: 2px solid black;
     text-align: center;
 
 }
@@ -82,9 +82,9 @@ body{
 
 }
 h1{ 
-    color: black;
+    color: blue;
 
 }
 h2{
-    color: black;
+    color: blue;
 }
