@@ -1,99 +1,90 @@
-/* Necessary style rules for the menu bar */
-nav {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-}
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+html {
+    background-image: linear-gradient(to left, white 0%, lightblue 100%)
 }
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Other styles for the body */
-body {
-    width: 95%;
-    margin: 15px auto;
-}
-
-/* Other styles for the article */
-article {
+article{
+    clear: both;
     width: 75%;
+    float: left;
+    column-count: 3;
+    column-rule: 2px dotted blue;
+    column-gap: 2em;
+    margin-left: 2em;
 }
 
-/* Other styles for the aside */
-aside {
+
+article p:first letter{
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+
+}
+article h1{
+    column-span: all;
+}
+aside{
     width: 20%;
+    float: right;
+    background-color: lightblue;
+    padding: 0.1em 1em 1em;
+    border: 2px solid blue;
     position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    overflow-y: auto;
-}
+    bottom: 35%;
+    right: 0%;
 
-aside ul {
-    padding-left: 20px;
-}
 
-aside ol {
-    padding-left: 20px;
+}
+aside{
     list-style-type: upper-roman;
 }
-
-aside ul li {
+aside{
     list-style-type: square;
 }
-
-/* Other lines as shown in the screenshot */
-hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
+aside img{
+    float: left;
+    margin-right: 1em;
+    margin-right: 1em;
 }
-
-/* Line below the menu */
-nav:after {
-    content: '';
+#nav_menu ul li { float: left;
+margin-bottom: 0.9em; }
+#nav_menu ul li a { float: left;
+margin-bottom: 0.9em; }
+#nav_menu ul li a { 
+    text-align: center;
     display: block;
-    clear: both;
-}
-
-/* Line between the columns */
-article,
-aside {
-    border-right: 1px solid #ccc;
-}
-
-/* Line above the footer */
-footer {
-    border-top: 1px solid #ccc;
-    padding-top: 10px;
-    margin-top: 20px;
-}
-
-/* Line around the body */
-body {
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-
-/* Style for the first letter */
-.first-letter {
-    font-size: larger;
-    font-style: italic;
+    width: 175px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
     font-weight: bold;
+    border-right: 2px solid white; }
+#nav_menu ul li a.lastitem { border-right: none }
+#nav_menu ul il a.current { color: yellow; }
+footer{
+    clear: both;
+    border-top: 2px solid blue;
+    text-align: center;
+
+}
+main{
+    border-top: 1px solid blue;
+    clear: left;
+}
+body{
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+    background-color: white;
+    width: 95%;
+    margin: 15px auto;
+
+}
+h1{ 
+    color: blue;
+
+}
+h2{
+    color: blue;
 }
